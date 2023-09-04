@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 150px;
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+    text-align: center;
+    background-color: skyblue;
+    padding: 50px;
+}
+.inp {
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+}
+label {
+    font-size: 22px;
+    font-family: monospace;
+}
+.input-div {
+   display: inline-block;
+}
+
+@media (max-width: 650px){
+    .container {
+        position: absolute;
+        width: 100%;
+    }
+    h1{
+    margin-top: 50px;
+    }
+    .inp {
+        width: 100%;
+    }
+
+}
